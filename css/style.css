@@ -1,0 +1,91 @@
+.nav li{float:left;}
+nav{height:400px;background:url(../images/2.jpg)no-repeat center;}
+header{}
+#sousuo{ height:80px;width:450px; border-radius:5px;padding:20px;background: rgba(230,230,230,0.3);position: absolute;top:300px;}
+#sousuo input{float: left;width: 300px;}
+#sousuo label{float: left;font-family: '微软雅黑';line-height: 40px;font-size: 20px;}
+.admin p{color:red;}
+.latest{background: white;height: 30px;}
+.center {
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.propose_sight{
+	padding: 0px;
+	width: 1000px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+}
+.left{
+	float: left;
+	width: 1000px;
+}
+
+.tab0{
+	width: 204px;
+	height: 300px;
+	float: left;
+	border: 2px solid #ccc;
+	margin-right: 23px;
+	margin-left: 23px;
+}
+.tab0 p ,.season p{
+	font-size: 12px;
+	margin-top: 8px;
+	font-weight: bold;
+}
+
+.travel_show{
+	background: -webkit-gradient(linear, 0 0, 0 bottom,from(#6AD17E),to(rgba(31, 205, 170, 0.5)));
+	padding-top: 15px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}  
+.travel{
+	width: 1000px;
+	margin-top: 15px;
+}
+.season{
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+} 
+
+.top_1{
+	width: 210px;
+	height: 280px;
+	float: left;
+	margin-left: 20px;
+	border: 2px solid #ccc;
+	background: #fff;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+.admin{margin-left:50px; }
+/*美食推荐*/
+.foods{
+	padding-top: 15px;
+	background-color: #FFF;
+}
+.bbb {
+	margin-top: 15px;
+}
+
+.summary{width:200px;background: rgba(230,230,230,0.5);float: left;}
+.top_1:hover .summary{display: block;}
+.tuijian{padding: 30px;height:400px;background: rgba(230,230,230,0.5); }
+.photo{float: left;padding: 30px;}
+.intro{float: left;padding: 30px;}
+.right{
+	float: right;
+	height: 600px;
+	background: #fff;
+	width: 270px;
+}
+.foot{width:800px;margin:auto; margin-top:50px; }
+.foot p{text-align:center;}
+.btn btn-lg btn-primary {height: 30px;width: 200px;}
