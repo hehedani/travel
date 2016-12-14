@@ -25,9 +25,9 @@ $(function(){
                
                 }
 	   },
-	   error:function(xhr,status,data){
-	   	console.log(data);
-				alert('服务器错误');
+	   // error:function(xhr,status,data){
+	   // 	console.log(data);
+				// alert('服务器错误');
 	   }
 		
 	})

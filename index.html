@@ -1574,9 +1574,7 @@
 
 <div class="center">  
 	<section class="left">
-       
-       
-       <div class="aaa">
+            <div class="aaa">
           <ul id="navCircle">
 <!-- CSS Tabs -->
 <li><a class="active" href="#" id="spot_0">湖泊</a></li>
@@ -1676,51 +1674,54 @@
             </ul> 
             <div class="ccc">    
 				<div class="top_1">
-				<img src='' id="pic_0">
+				<img src='images/锅包肉.jpg' id="pic_0">
 					<!-- <img src='' width="200px" height="150px"> -->
 					<div class="summary" style="none">
-					<span>菜品名称:</span><a href='#' id='name_0'>12</a><br>
-					<span>别名:</span><span  id='alias_0'></span><br>
-					<span>口味:</span><span  id='taste_0'></span><br>
-					<span>地区:</span><span id='area_0'></span><br>
-					<span>推荐人群：</span><span id='propose_0'></span><br>
-					<p id='intro_0'></p>
+					<span>菜品名称:</span><a href='#' id='name_0'>锅包肉</a><br>
+					<span>别名:</span><span  id='alias_0'>锅爆肉</span><br>
+					<span>口味:</span><span  id='taste_0'>酸，甜</span><br>
+					<span>地区:</span><span id='area_0'>东北</span><br>
+					<span>推荐人群：</span><span id='propose_0'>女士儿童</span><br>
+					<p id='intro_0'>
+经典的东北菜，色泽金黄，外酥里嫩，酸甜可口。……</p>
 				    </div>
 				</div>
 				<div class="top_1">
-        <img src='' id="pic_1">
+        <img src='images/重庆小面.jpg' id="pic_1">
           <!-- <img src='' width="200px" height="150px"> -->
           <div class="summary" style="none">
-          <span>菜品名称:</span><a href='#' id='name_1'>12</a><br>
-          <span>别名:</span><span  id='alias_1'></span><br>
-          <span>口味:</span><span  id='taste_1'></span><br>
-          <span>地区:</span><span id='area_1'></span><br>
-          <span>推荐人群：</span><span id='propose_1'></span><br>
-          <p id='intro_1'></p>
+          <span>菜品名称:</span><a href='#' id='name_1'>重庆小面</a><br>
+          <span>别名:</span><span  id='alias_1'>小面</span><br>
+          <span>口味:</span><span  id='taste_1'>清汤、麻辣</span><br>
+          <span>地区:</span><span id='area_1'>重庆</span><br>
+          <span>推荐人群：</span><span id='propose_1'>老少皆宜</span><br>
+          <p id='intro_1'>
+            重庆小面的知名度绝不亚于火锅，在重庆，街边的面摊格外火。
+          </p>
           </div>
         </div>
        <div class="top_1">
-        <img src='' id="pic_2">
+        <img src='images/地三鲜.jpg' id="pic_2">
           <!-- <img src='' width="200px" height="150px"> -->
           <div class="summary" style="none">
-          <span>菜品名称:</span><a href='#' id='name_2'>12</a><br>
+          <span>菜品名称:</span><a href='#' id='name_2'>地三鲜</a><br>
           <span>别名:</span><span  id='alias_2'></span><br>
-          <span>口味:</span><span  id='taste_2'></span><br>
-          <span>地区:</span><span id='area_2'></span><br>
+          <span>口味:</span><span  id='taste_2'>红烧</span><br>
+          <span>地区:</span><span id='area_2'>东北地区</span><br>
           <span>推荐人群：</span><span id='propose_2'></span><br>
-          <p id='intro_2'></p>
+          <p id='intro_2'>地三鲜的主要原料有土豆、青椒和茄子。菜品盘大块粗，酱味浓重，咸香……</p>
           </div>
         </div>	
        <div class="top_1">
-        <img src='' id="pic_3">
+        <img src='images/重庆火锅.jpg' id="pic_3">
           <!-- <img src='' width="200px" height="150px"> -->
           <div class="summary" style="none">
-          <span>菜品名称:</span><a href='#' id='name_3'>12</a><br>
-          <span>别名:</span><span  id='alias_3'></span><br>
-          <span>口味:</span><span  id='taste_3'></span><br>
-          <span>地区:</span><span id='area_3'></span><br>
-          <span>推荐人群：</span><span id='propose_3'></span><br>
-          <p id='intro_3'></p>
+          <span>菜品名称:</span><a href='#' id='name_3'>重庆火锅</a><br>
+          <span>别名:</span><span  id='alias_3'>涮锅子</span><br>
+          <span>口味:</span><span  id='taste_3'>清汤、麻辣、鸳鸯</span><br>
+          <span>地区:</span><span id='area_3'>重庆、四川</span><br>
+          <span>推荐人群：</span><span id='propose_3'>家人、朋友聚会，</span><br>
+          <p id='intro_3'>火锅是去重庆必吃的，火红火红的沸腾滚动着的汤，旁边放着十几种菜品如血旺、肉片、……</p>
           </div>
         </div>   
 	  </div>
@@ -1764,22 +1765,6 @@ $('#search').on('click',function(){
     
   })
 })  
-</script>
-<script type="text/javascript">
-  $(function(){
-    $.ajax({
-      url:'wad/popular',
-      type:'post',
-      data:'json',
-      success:function(data,status,xhr){
-       for(var a=0;a<data.length;a++)
-         {
-              $('#spot_'+a).text(data[a].season)
-              $('#spot_'+a).attr('href','landscape.html?id='+data[i].secenery);
-         }
-      },
-    })
-  })
 </script>
 
 
